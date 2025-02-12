@@ -3,7 +3,7 @@ import '../../style/Main.css'
 import suggested from './SuggestData';
 function Suggest() {
     return (
-    <div className='suggest'>
+    <div className='suggest'  id='shop'>
       <h1>Suggested Food</h1>
       <ul>
         {suggested.map((food)=> <li key={food.id}>

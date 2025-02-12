@@ -23,12 +23,27 @@
     padding: 15px;
     transition: 0.5s;
 }
+.adrs button{
+    cursor: pointer;
+    width: 20%;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color:#e3bb8b ;
+    transition: 0.5s;
+}
+.adrs button:hover{
+    background-color:#e3bb8b9e ;
+    transition: 0.5s;
+}
 /*Suggest*/
 .suggest{
     margin-top: 180px;
 }
 .suggest h1{
-    color: rgb(0, 0, 0);
+    color: brown;
+    font-size: 3em;
     text-align: center;
     font-family: 'Roboto' bold;
 }
@@ -40,8 +55,9 @@
 .suggest ul li{
     list-style: none;
     text-align: center;
-    color: rgb(78, 78, 78);
+    color: rgb(96, 23, 7);
     font-family: 'Roboto';
+    font-size: 1.3em;
     width: 30%;
     margin-bottom: 40px;
 }
@@ -52,12 +68,63 @@
     height: 25vh;
 }
 .suggest ul li button{
-    border: 4px solid brown;
+    border: 3px solid rgb(69, 69, 69);
     background-color: brown;
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: 'Roboto';
     border-radius: 10px;
     margin-top: 20px;
     padding: 10px;
+    transition: 0.5s;
 }
+.suggest ul li button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 15px;
+}
+/*Join us*/
+
+.join {
+    margin-top: 150px;
+    background-color: brown;
+    border-radius:40% 40% 0% 0%;
+    height: 80vh;
+}
+.join h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    color: white;
+}
+.join .list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 100px;
+}
+.join .list img{
+    display: block;
+    margin: auto;
+    width: 55%;
+    border-radius: 30%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.join .list li{
+    width :33%;
+}
+.join .list h3{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.join .list p{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    width: 50%;
+    margin: auto;
+}
+

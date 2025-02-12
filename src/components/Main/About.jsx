@@ -11,6 +11,7 @@ function About() {
             <h1>We deliver Food, <br/>To every place in Tunisia!</h1>
             <div className='adrs'>
                 <input type="text" name="" id="" placeholder='Adress' />
+                <button>Search</button>
             </div>
         </div>
     </div>

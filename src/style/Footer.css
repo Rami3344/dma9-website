@@ -1,0 +1,27 @@
+.footer{
+    background-color: rgb(128 0 0);
+}
+.footer .cont{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer .cont h2{
+    text-align: center;
+    font-family: roboto;
+    font-size: 1.5em;
+    color: white;
+}
+.footer .cont ul{
+    list-style: none;
+    color: white;
+    font-family: roboto;
+    font-size: 1.1em;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}

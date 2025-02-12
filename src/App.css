@@ -1,3 +1,17 @@
 body{
     background-color: #e3bb8b;
 }
+.blur::before{
+    content: "";
+    position: fixed;
+    animation: bgblur;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    width: 100%;
+    opacity: 0.7;
+    height:100% ;
+}
+@keyframes bgblur {
+    from{}
+    to{background-color: gray;}
+}

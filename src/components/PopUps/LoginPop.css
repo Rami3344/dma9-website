@@ -1,0 +1,54 @@
+.show{
+    display: block;
+    position: fixed;
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 800ms;
+    background-color: rgb(36, 36, 36);
+}
+.active{
+    transform: translate(100px) scale(0) rotateY(180deg);
+}
+.loginForm h1{
+    color: white;
+    font-family: roboto;
+    text-align: center;
+}
+.loginForm{
+    color: white;
+    font-family: roboto;
+    font-size: 1.3em;
+    text-align: center;
+}
+.loginForm .close{
+    position: absolute;
+    padding: 10px;
+    background-color: brown;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+    width: 6%;
+    left: 90%;
+}
+.loginForm div{
+    margin-top: 50px;
+}
+.loginForm input{
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(33, 33, 33);
+}
+.loginForm input[type="submit"]{
+    cursor: pointer;
+    margin: 50px 0px;
+    background-color: rgb(55, 142, 255);
+    width: 40%;
+}
